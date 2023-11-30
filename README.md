@@ -2,7 +2,7 @@
 
 ## Description
 
-This is website that offers a variety of services. 
+This is website that offers a variety of services. <br />
 My goal is to provide high-quality services for your needs.
 
 ## Services
@@ -20,6 +20,6 @@ I offer a wide range of services including, but not limited to:
 
 If you have any questions:
 
-Email:
-Phone Number:
+Email:  <br />
+Phone Number:  <br />
 Address:
