@@ -18,4 +18,8 @@ I offer a wide range of services including, but not limited to:
 
 ## Contacts
 
-If you have any questions.
+If you have any questions:
+
+Email:
+Phone Number:
+Address:
