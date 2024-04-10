@@ -1,5 +1,6 @@
 import React from "react"
 import db from "./db.json"
+import Picture from './Picture.jpg';
 
 function Services () {
 
@@ -11,8 +12,8 @@ function Services () {
                 <h2>{service.type}</h2>
                 <img src={service.photo} alt="" />
                 <p>{service.description}</p>
-                <p>{service.time}</p>
-                <p>{service.price}</p>
+                <p>Duration: {service.time} minutes</p>
+                <p>Price: {service.price} USD</p>
                 </div>
       ))}
             </div>

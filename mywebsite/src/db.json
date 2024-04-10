@@ -1,12 +1,12 @@
-{
-  "services": [
+  {
+    "services": [
     {
       "id": "1",
       "type": "Consultation",
       "description": "A consultation to make your business better.",
       "price": "100",
       "time": "60",
-      "photo": "mywebsite\\Picture.jpg"
+      "photo": "mywebsite\\Picture.jpg"  
     },
     {
       "id": "2",
@@ -59,7 +59,7 @@
     {
       "id": "8",
       "type": "Photographer",
-      "description": "A professional photos.",
+      "description": "Professional photos.",
       "price": "90",
       "time": "60",
       "photo": "mywebsite\\Picture.jpg"
