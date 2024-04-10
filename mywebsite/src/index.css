@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: azure
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.service-box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 10px; 
+  border-radius: 25px;
+  border: 5px black;
+  background-color: azure;
 }
