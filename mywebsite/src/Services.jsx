@@ -5,9 +5,6 @@ function Services () {
 
     return (
         <div>
-            <h1>SERVICES</h1>
-            <h3>The place where we can help you</h3>
-            <hr />
             <div className="service-box">
             {db.services.map((service) => (
                 <div key={service.id}>
