@@ -10,7 +10,7 @@ function Services () {
             {db.services.map((service) => (
                 <div className="service-item" key={service.id}>
                 <h2>{service.type}</h2>
-                <img src={service.photo} alt="" />
+                <img className="service-image" src={require(`${service.photo}`)} alt="" />
                 <p>{service.description}</p>
                 <p>Duration: {service.time} minutes</p>
                 <p>Price: {service.price} USD</p>
