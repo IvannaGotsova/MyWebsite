@@ -6,7 +6,7 @@
       "description": "A consultation to make your business better.",
       "price": "100",
       "time": "60",
-      "photo": "mywebsite\\Picture.jpg"  
+      "photo": "./Picture.jpg"  
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "description": "A solution for your website.",
       "price": "110",
       "time": "60",
-      "photo": "mywebsite\\Picture.jpg"
+      "photo": "./Picture.jpg"  
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "description": "A great website for everyone.",
       "price": "150",
       "time": "130",
-      "photo": "mywebsite\\Picture.jpg"
+      "photo": "./Picture.jpg"  
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
       "description": "A translaion from many languages.",
       "price": "70",
       "time": "30",
-      "photo": "mywebsite\\Picture.jpg"
+      "photo": "./Picture.jpg"  
     },
     {
       "id": "5",
@@ -38,7 +38,7 @@
       "description": "A great design for your website.",
       "price": "100",
       "time": "60",
-      "photo": "mywebsite\\Picture.jpg"
+      "photo": "./Picture.jpg"  
     },
     {
       "id": "6",
@@ -46,7 +46,7 @@
       "description": "Help for the management of your finances.",
       "price": "45",
       "time": "30",
-      "photo": "mywebsite\\Picture.jpg"
+      "photo": "./Picture.jpg"  
     },
     {
       "id": "7",
@@ -54,7 +54,7 @@
       "description": "A help in many different areas.",
       "price": "65",
       "time": "50",
-      "photo": "mywebsite\\Picture.jpg"
+      "photo": "./Picture.jpg"  
     },
     {
       "id": "8",
@@ -62,7 +62,7 @@
       "description": "Professional photos.",
       "price": "90",
       "time": "60",
-      "photo": "mywebsite\\Picture.jpg"
+      "photo": "./Picture.jpg"  
     },
     {
       "id": "9",
@@ -70,7 +70,7 @@
       "description": "Making your video perfect.",
       "price": "60",
       "time": "30",
-      "photo": "mywebsite\\Picture.jpg"
+      "photo": "./Picture.jpg"  
     },
     {
       "id": "10",
@@ -78,7 +78,7 @@
       "description": "A help for everyday tasks.",
       "price": "50",
       "time": "60",
-      "photo": "mywebsite\\Picture.jpg"
+      "photo": "./Picture.jpg"  
     }
   ]
 }
