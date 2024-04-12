@@ -18,9 +18,9 @@ function Services() {
               <p>{service.description}</p>
               <p>Duration: {service.time} minutes</p>
               <p>Price: {service.price} USD</p>
-              <button onclick="myViewMoreButtonFunction()">View more</button>
+              <button onclick="myViewMoreButton()">View more ...</button>
               <br />
-              <button onclick="myMakeAnAppointmentButtonFunction()">Make an appointment</button>
+              <button onclick="myMakeAnAppointmentButton()">Make an appointment</button>
               <br />
             </div>
           ))}
@@ -30,3 +30,4 @@ function Services() {
 }
 
 export default Services;
+
