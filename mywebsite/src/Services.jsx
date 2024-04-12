@@ -1,6 +1,6 @@
 import React from "react";
 import db from "./db.json";
-
+import { Link } from 'react-router-dom';
 
 function Services() {
 
@@ -18,6 +18,8 @@ function Services() {
               <p>{service.description}</p>
               <p>Duration: {service.time} minutes</p>
               <p>Price: {service.price} USD</p>
+              <Link to="/viiewmore"><button>View more ...</button></Link>
+              <Link to="/makeanappointment"><button>VMake an appointment</button></Link>
               <button onclick="myViewMoreButton()">View more ...</button>
               <br />
               <button onclick="myMakeAnAppointmentButton()">Make an appointment</button>
