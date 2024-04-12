@@ -15,6 +15,10 @@ I offer a wide range of services including, but not limited to:
 - Service 4
 - Service 5
 - Service 6
+- Service 7
+- Service 8
+- Service 9
+- Service 10
 
 ## Contacts
 
