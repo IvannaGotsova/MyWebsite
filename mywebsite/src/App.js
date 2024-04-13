@@ -1,17 +1,16 @@
 import "./App.css";
-import Services from "./Services";
-import Header from "./Header";
-import Footer from "./Footer";
 import ViewMore from "./ViewMore";
 import MakeAnAppointment from "./MakeAnAppointment";
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from "./Home";
 
 function App() {
   const rootElement = document.getElementById("root");
-  ReactDOM.render(
+  ReactDOM.createRoot(
     <BrowserRouter>
       <Routes>
+        <Route path="/" component={Home} />
         <Route path="/viewmore" component={ViewMore} />
         <Route path="/makeanappointment" component={MakeAnAppointment} />
       </Routes>
@@ -21,14 +20,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div className="App">
-      <Header />
-      <Services />
-      <Services />
-      <Services />
-      <Services />
-      <Footer />
-    </div>
+       <Home />
     </BrowserRouter>
   );
 }
