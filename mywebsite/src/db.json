@@ -1,0 +1,84 @@
+  {
+    "services": [
+    {
+      "id": "1",
+      "type": "Consultation",
+      "description": "A consultation to make your business better.",
+      "price": "100",
+      "time": "60",
+      "photo": "./Picture.jpg"  
+    },
+    {
+      "id": "2",
+      "type": "Graphic Design",
+      "description": "A solution for your website.",
+      "price": "110",
+      "time": "60",
+      "photo": "./Picture.jpg"  
+    },
+    {
+      "id": "3",
+      "type": "Web Development",
+      "description": "A great website for everyone.",
+      "price": "150",
+      "time": "130",
+      "photo": "./Picture.jpg"  
+    },
+    {
+      "id": "4",
+      "type": "Translation",
+      "description": "A translaion from many languages.",
+      "price": "70",
+      "time": "30",
+      "photo": "./Picture.jpg"  
+    },
+    {
+      "id": "5",
+      "type": "Web Design",
+      "description": "A great design for your website.",
+      "price": "100",
+      "time": "60",
+      "photo": "./Picture.jpg"  
+    },
+    {
+      "id": "6",
+      "type": "Accountant",
+      "description": "Help for the management of your finances.",
+      "price": "45",
+      "time": "30",
+      "photo": "./Picture.jpg"  
+    },
+    {
+      "id": "7",
+      "type": "Tutor",
+      "description": "A help in many different areas.",
+      "price": "65",
+      "time": "50",
+      "photo": "./Picture.jpg"  
+    },
+    {
+      "id": "8",
+      "type": "Photographer",
+      "description": "Professional photos.",
+      "price": "90",
+      "time": "60",
+      "photo": "./Picture.jpg"  
+    },
+    {
+      "id": "9",
+      "type": "Video Editing",
+      "description": "Making your video perfect.",
+      "price": "60",
+      "time": "30",
+      "photo": "./Picture.jpg"  
+    },
+    {
+      "id": "10",
+      "type": "Assisstant",
+      "description": "A help for everyday tasks.",
+      "price": "50",
+      "time": "60",
+      "photo": "./Picture.jpg"  
+    }
+  ]
+}
