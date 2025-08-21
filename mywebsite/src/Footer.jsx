@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div>
             <hr />
-            <h4>Services - {new Date().getFullYear()}</h4>
+            <h4>&copy;Services - {new Date().getFullYear()}</h4>
         </div>
     )
 }
