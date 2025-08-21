@@ -14,8 +14,6 @@ function Services() {
               <img
                 className="service-image"
                 src={new URL(`${service.photo}`, import.meta.url).href}
-                src={require(`${service.photo}`)}
-                src={require(`${service.photo}`)}
                 alt=""
               />
               <p>{service.description}</p>
@@ -24,11 +22,6 @@ function Services() {
               <button onClick={() => window.open(`${window.location.origin}/viewmore`)}>View more ...</button>
               <button onClick={() => window.location.href = (`${window.location.origin}/makeanappointment`)}>Make an appointment</button>
               <br />
-              <Link to="/viewmore"><button>View more ...</button></Link>
-              <Link to="/makeanappointment"><button>VMake an appointment</button></Link>
-
-              <Link to="/viewmore"><button>View more ...</button></Link>
-              <Link to="/makeanappointment"><button>VMake an appointment</button></Link>
               <br />
             </div>
           ))}
