@@ -9,10 +9,6 @@ function Header () {
             <form action="">
                 <label htmlFor="search">Search</label>
                 <input type="search" name="search" id="search" placeholder="I am looking for..." />
-                <label for="">Search</label>
-                <input type="search" name="" id="" placeholder="I am looking for..." />
-                <label for="">Search</label>
-                <input type="search" name="" id="" placeholder="I am looking for..." />
             </form>
             <hr />
         </div>
