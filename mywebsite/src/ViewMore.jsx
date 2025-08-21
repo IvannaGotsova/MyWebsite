@@ -2,7 +2,9 @@ import React from 'react';
 
 function ViewMore () {
 
-    <div>
+  return (
+    <>
+      <div>
         <h4>Details</h4>
         <p>Location: Online, Live</p>
         <p>Workdays: Monday - Saturday</p>
@@ -14,6 +16,8 @@ function ViewMore () {
         <br />
         <button onClick={() => window.location.href = (`${window.location.origin}/makeanappointment`)}>Make an appointment</button>
       </div>
+    </>
+  )
 }
 
 export default ViewMore
