@@ -19,7 +19,7 @@ function Services() {
               <p>{service.description}</p>
               <p>Duration: {service.time} minutes</p>
               <p>Price: {service.price} USD</p>
-              <button onClick={() => window.open(`${window.location.origin}/viewmore`)}>View more ...</button>
+              <button onClick={() => window.open(`${window.location.origin}/viewmore/${service.id}`)}>View more ...</button>
               <button onClick={() => window.location.href = (`${window.location.origin}/makeanappointment`)}>Make an appointment</button>
               <br />
               <br />
