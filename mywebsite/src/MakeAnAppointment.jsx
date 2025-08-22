@@ -1,10 +1,29 @@
 import React from 'react'
+import { useState } from 'react';
+
 
 function MakeAnAppointment () {
-    
+
+    const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const firstName = event.target.firstName.value;
+    const lastName = event.target.lastName.value;
+    const searchedInfo = event.target.info.value;
+    const date = event.target.date.value;
+    const phone = event.target.phone.value;
+    const email = event.target.email.value;
+
+    const message = `${firstName} ${lastName} you were looking for ${searchedInfo}.
+    \n The day for your appoinment is ${date}.
+    \n Your constacts are:\n Phone: ${phone}.
+    \n Email: ${email}.`;
+    alert(message); 
+    }
+
     return (
         <>
-        <form action="">
+        <form onSubmit={handleSubmit}>
             <input type="text" name="firstName" id="firstName" placeholder="First Name ..."/>
             <br />
             <input type="text" name="lastName" id="lastName" placeholder="Last Name ..."/>
