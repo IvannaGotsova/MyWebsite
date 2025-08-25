@@ -2,7 +2,7 @@ import "./App.css";
 import React from 'react';
 import ViewMore from "./ViewMore";
 import MakeAnAppointment from "./MakeAnAppointment";
-import { BrowserRouter,Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from "./Home";
 import Error from "./Error";
 
